@@ -7,7 +7,6 @@ import static org.junit.Assert.assertTrue;
 public class PrimeNumbersTest {
      @Test
     public void testIsPrimeWithPrimeNumbers() {
-        // Test known prime numbers
         assertTrue(PrimeNumber.isPrime(2));
         assertTrue(PrimeNumber.isPrime(3));
 
