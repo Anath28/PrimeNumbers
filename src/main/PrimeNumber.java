@@ -15,13 +15,11 @@ public class PrimeNumber {
         }
     }
 
-    // Method to check if a number is prime
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;  // 0 and 1 are not prime numbers
         }
 
-        // Check divisibility from 2 to sqrt(num)
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
                 return false;  // num is divisible by i, so it's not prime
